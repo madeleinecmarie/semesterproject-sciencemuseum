@@ -1,0 +1,1155 @@
+@media (max-width: 991px) {
+  /*Tablet*/
+
+  /* HEADER */
+
+  .menu_wrapper {
+    position: static;
+    top: 0;
+    left: 40px;
+    z-index: 1;
+  }
+
+  .menu_wrapper .menu > div > div > ul > li {
+    font-size: 1.5rem;
+  }
+
+  /* HOMEPAGE */
+
+  .hero_container {
+    display: grid;
+    grid-template-areas: "hero1 hero2";
+    position: relative;
+    height: 500px;
+  }
+
+  .hero_img {
+    top: 70px;
+    right: 100px;
+  }
+
+  .rocketmoon {
+    height: 260px;
+  }
+
+  .hero_text {
+    width: 70%;
+    margin: 0;
+    justify-self: center;
+    align-items: center;
+    position: absolute;
+  }
+
+  .buttons {
+    width: 65%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+  }
+
+  .hero_text h1 {
+    font-size: 1.5rem;
+    width: 95%;
+  }
+
+  .hero_text h1 {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  .hero_text p {
+    font-size: 0.7rem;
+    width: 100%;
+    line-height: 24px;
+    letter-spacing: var(--spacing);
+  }
+
+  .home_container {
+    display: grid;
+    grid-template-areas:
+      /* "line1 line1" */
+      "line2"
+      "img1"
+      "line3"
+      "img2"
+      "line4"
+      "img3";
+    grid-template-columns: repeat(1) 1fr;
+    grid-template-rows: repeat(2, 300px);
+    height: auto;
+    width: var(--box_width_tablet);
+    margin-top: 60px;
+  }
+
+  .home_box2 h2 {
+    font-size: 1.1rem;
+  }
+
+  .paragraph_home {
+    font-size: 0.9rem;
+  }
+
+  .paragraph_homebox2,
+  .paragraph_homebox3,
+  .paragraph_homebox4 {
+    font-size: var(--headline_mobile);
+  }
+
+  .home_box2img {
+    width: 40%;
+    margin-top: 40px;
+  }
+
+  .paragraph_homebox2_long,
+  .paragraph_homebox_3_long,
+  .paragraph_homebox4_long {
+    font-size: var(--font_mobile);
+  }
+
+  .home_box4_img {
+    margin-top: 30px;
+    width: 50%;
+  }
+
+  .spaceman,
+  .museum_tent,
+  .wind_island {
+    height: 240px;
+  }
+
+  /* GET INVOLVED */
+
+  .getinvolved_container {
+    display: grid;
+    grid-template-areas:
+      "box1"
+      "box2"
+      "box3"
+      "box";
+    width: var(--box_width_tablet);
+  }
+
+  .people_img {
+    height: 280px;
+    margin-top: 40px;
+  }
+
+  .getinvolved_box5 {
+    display: grid;
+    grid-template-areas:
+      "h2"
+      "button";
+    width: var(--box_width_tablet);
+    height: auto;
+  }
+
+  .exhibition_btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* EXPLORE */
+
+  .explore_container {
+    height: auto;
+    width: var(--box_width_tablet);
+    margin-top: 60px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-areas:
+      "head head"
+      "base illustration";
+  }
+
+  .kids_headline {
+    font-weight: var(--fw);
+    margin-top: 40px;
+  }
+
+  .kids_p {
+    font-size: var(--paragraph);
+    line-height: var(--line);
+    width: 80%;
+    margin-top: 20px;
+    letter-spacing: var(--spacing);
+  }
+
+  .explorer3 {
+    grid-area: illustration;
+    align-self: center;
+    justify-self: center;
+    width: 80%;
+  }
+
+  .orange_rocket {
+    height: 280px;
+  }
+
+  .explorer2 {
+    grid-area: base;
+    align-self: center;
+    justify-self: end;
+    width: 80%;
+  }
+
+  #fullname,
+  #email,
+  #phone,
+  #message {
+    width: 260px;
+  }
+
+  .explore_container2 {
+    display: grid;
+    grid-template-areas:
+      "explore1"
+      "explore2";
+    height: 440px;
+    width: var(--box_width_tablet);
+  }
+
+  .explore1 {
+    grid-area: explore1;
+    letter-spacing: var(--spacing);
+    align-self: center;
+    justify-self: center;
+    width: 85%;
+    height: 280px;
+  }
+
+  .container2_p,
+  .container3_p {
+    font-size: var(--paragraph);
+    margin-top: 10px;
+    width: 70%;
+    line-height: 32px;
+  }
+
+  .ticket_view_btn {
+    margin-top: 20px;
+  }
+
+  .explore_container3 {
+    height: 380px;
+    width: var(--box_width_tablet);
+  }
+
+  .explore3 {
+    height: 280px;
+    margin-top: 20px;
+  }
+
+  .explore4 {
+    height: 80px;
+  }
+
+  /* EXHIBITIONS */
+
+  .exhibitions_container {
+    display: grid;
+    grid-template-areas:
+      "space1"
+      "space2"
+      "space3"
+      "space4"
+      "space5"
+      "space6"
+      "space8"
+      "space7"
+      "space9"
+      "space10";
+    grid-template-columns: repeat(1) 1fr;
+    grid-template-rows: repeat(4, 370px);
+    width: var(--box_width_tablet);
+    height: auto;
+  }
+
+  .exhibtions1 {
+    grid-area: space1;
+    width: 85%;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .h1_exhibitions {
+    font-size: var(--h1_mobile);
+  }
+
+  .cosmology {
+    margin-top: 30px;
+  }
+
+  .cosmo_p {
+    width: 95%;
+  }
+
+  .exhibtions2 {
+    grid-area: space9;
+    width: 60%;
+    align-self: center;
+    justify-self: center;
+    margin-top: 20px;
+  }
+
+  .cosmo_moon {
+    height: 220px;
+    display: none;
+  }
+
+  .exhibtions3 {
+    grid-area: space4;
+    align-self: flex-end;
+    justify-self: center;
+    width: 85%;
+  }
+
+  .exhibtions4 {
+    grid-area: space2;
+    align-self: center;
+    justify-self: center;
+    width: 85%;
+  }
+
+  .bio_p,
+  .robo_p,
+  .evolution_p,
+  .ecology_p {
+    width: 100%;
+  }
+
+  .exhibtions5 {
+    grid-area: space8;
+    width: 85%;
+  }
+
+  .exhibtions6 {
+    grid-area: space10;
+    width: 50%;
+  }
+
+  .icebear,
+  .heart,
+  .mammoth,
+  .robot {
+    height: 250px;
+    display: none;
+  }
+
+  .exhibtions7 {
+    grid-area: space7;
+    width: 85%;
+  }
+
+  .exhibtions8 {
+    grid-area: space4;
+    width: 85%;
+  }
+
+  .exhibtions9 {
+    grid-area: space3;
+    width: 85%;
+  }
+
+  .exhbitions_volunteer {
+    display: grid;
+    grid-template-areas:
+      "vol"
+      "vol2";
+    height: auto;
+    width: var(--box_width_tablet);
+  }
+
+  .gridsy_container {
+    grid-area: gridsy1;
+    width: 80%;
+    height: 120px;
+  }
+
+  .exhibitions_vol {
+    font-weight: var(--fw);
+    margin-top: 30px;
+  }
+
+  .vol_btn {
+    grid-area: gridsy2;
+    width: 80%;
+  }
+
+  .exhibitions_grid2 {
+    grid-area: vol2;
+    width: 20%;
+    height: 130px;
+  }
+
+  /* ABOUT */
+
+  .about_container {
+    display: grid;
+    grid-template-areas:
+      "about1"
+      "about2"
+      "about4"
+      "about3";
+    height: auto;
+    /* width: auto; */
+    width: var(--box_width_tablet);
+    margin: auto;
+    margin-top: 60px;
+    box-shadow: var(--shadow);
+    margin-bottom: 40px;
+  }
+
+  .about_box1 {
+    grid-area: about1;
+    align-self: center;
+    justify-self: center;
+    width: 95%;
+  }
+
+  .h1_about {
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+
+  .paragraph_about_long {
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 95%;
+  }
+
+  .box2_img {
+    margin-right: 120px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .science_ball {
+    height: 330px;
+  }
+
+  .paragraph_about2_long {
+    width: 95%;
+    margin-top: 30px;
+  }
+
+  .science_teacher {
+    height: 320px;
+  }
+
+  .box3_img {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin-top: 30px;
+  }
+
+  /* VISITING */
+
+  .flex_container {
+    width: var(--box_width_tablet);
+  }
+
+  .art_grid {
+    display: grid;
+    grid-template-areas:
+      "grids1"
+      "grids2";
+    width: var(--box_width_tablet);
+    margin-top: 60px;
+  }
+
+  .art_grid1 {
+    grid-area: grids1;
+    line-height: var(--line);
+    width: 90%;
+    margin: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .tickets_p_long {
+    text-align: center;
+    width: 90%;
+    font-size: var(--paragraph);
+    line-height: var(--line);
+    margin: auto;
+  }
+
+  .tickets_price_headline {
+    font-weight: var(--fw);
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .tickets_price {
+    margin-top: 10px;
+    font-size: var(--paragraph);
+    text-align: center;
+  }
+
+  .grids2_img {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    margin-top: 45px;
+  }
+
+  .queue {
+    height: 240px;
+    margin-bottom: 20px;
+  }
+
+  .flex_coin {
+    display: flex;
+    justify-content: space-evenly;
+    width: var(--box_width_tablet);
+  }
+}
+
+@media (max-width: 767px) {
+  /*Mobile*/
+
+  /* HEADER */
+
+  .logo_img {
+    height: 45px;
+  }
+
+  .menu_wrapper {
+    position: static;
+    top: 0;
+    left: 40px;
+    z-index: 1;
+  }
+
+  .menu_wrapper .menu > div > div > ul > li {
+    font-size: 1.3rem;
+  }
+
+  /* FOOTER */
+
+  .footer_container {
+    display: grid;
+    grid-template-areas:
+      "box1 box2 box3"
+      "copy copy2 copy3";
+    background-color: var(--color);
+    border-radius: 30px 45px 0px 0px;
+    height: 220px;
+    width: auto;
+  }
+
+  .footer_headline {
+    font-size: var(--h1_mobile);
+  }
+
+  .footer_links a {
+    font-size: var(--font_mobile);
+  }
+
+  .footer_1 {
+    width: 110%;
+  }
+
+  .footer_2 {
+    width: 90%;
+  }
+
+  .footer_3 {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  /* HOMEPAGE */
+
+  .hero_container {
+    display: grid;
+    grid-template-areas:
+      "hero2"
+      "hero1";
+    position: relative;
+    top: 20px;
+    height: 550px;
+    margin-top: 40px;
+    /* width: var(--box_width_mobile); */
+  }
+
+  .rocketmoon {
+    height: 220px;
+  }
+
+  .hero_text {
+    grid-area: hero1;
+    width: 80%;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    margin: 0;
+    justify-self: center;
+    align-items: center;
+  }
+
+  .hero_img {
+    grid-area: hero2;
+    top: 20px;
+    left: 50px;
+    position: absolute;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 220px;
+    margin-top: 30px;
+    /* margin-left: 15px; */
+    width: 95%;
+  }
+
+  .hero_text h1 {
+    font-size: 1.5rem;
+    width: 95%;
+  }
+
+  .hero_text p {
+    font-size: var(--headline_mobile);
+  }
+
+  .home_container {
+    display: grid;
+    grid-template-areas:
+      /* "line1 line1" */
+      "line2"
+      "img1"
+      "line3"
+      "img2"
+      "line4"
+      "img3";
+    /* grid-template-columns: repeat(1) 1fr;
+    grid-template-rows: repeat(2, 380px); */
+    height: auto;
+    width: 340px;
+    margin-top: 40px;
+  }
+
+  .home_box2 h2 {
+    font-size: 1.1rem;
+  }
+
+  .paragraph_home {
+    font-size: 0.9rem;
+  }
+
+  .paragraph_homebox2,
+  .paragraph_homebox3,
+  .paragraph_homebox4 {
+    font-size: var(--headline_mobile);
+  }
+
+  .home_box2img {
+    grid-area: img1;
+    align-content: center;
+    justify-self: center;
+    width: 70%;
+    margin-top: 150px;
+  }
+
+  .paragraph_homebox2_long,
+  .paragraph_homebox_3_long,
+  .paragraph_homebox4_long {
+    font-size: var(--font_mobile);
+  }
+
+  .spaceman,
+  .museum_tent,
+  .wind_island {
+    height: 180px;
+  }
+
+  /* GET INVOLVED */
+
+  .getinvolved_container {
+    display: grid;
+    grid-template-areas:
+      "box1"
+      "box2"
+      "box3"
+      "box";
+    width: 340px;
+  }
+
+  .paragraph_involved_long,
+  .paragraph_involved5_long {
+    font-size: var(--font_mobile);
+  }
+
+  .people_img {
+    height: 180px;
+    margin-top: 30px;
+  }
+
+  .getinvolved_box5 {
+    display: grid;
+    grid-template-areas:
+      "h2"
+      "button";
+    width: 345px;
+    height: auto;
+  }
+
+  .exhibition_btn {
+    margin-top: 10px;
+    font-size: var(--font_mobile);
+    margin-bottom: 10px;
+  }
+
+  /* ABOUT */
+
+  .about_container {
+    display: grid;
+    grid-template-areas:
+      "about1"
+      "about2"
+      "about4"
+      "about3";
+    height: auto;
+    /* width: auto; */
+    width: var(--box_width_mobile);
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: var(--shadow);
+    margin-bottom: 40px;
+  }
+
+  .h1_about {
+    color: var(--color);
+    font-size: var(--h1_mobile);
+    margin: 0;
+    margin-bottom: 30px;
+    letter-spacing: var(--spacing);
+    width: 70%;
+    margin-top: 30px;
+  }
+
+  .about_box1 {
+    grid-area: about1;
+    align-self: flex-start;
+    justify-self: center;
+    width: 76%;
+  }
+
+  .paragraph_about,
+  .paragraph_about2 {
+    font-size: var(--font_mobile);
+  }
+
+  .paragraph_about_long,
+  .paragraph_about2_long {
+    font-size: var(--font_mobile);
+    margin-left: 0px;
+  }
+
+  .box2_img {
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+
+  .science_ball,
+  .science_teacher {
+    height: 230px;
+  }
+
+  .about_box4 {
+    grid-area: about4;
+    align-self: center;
+    justify-self: center;
+    width: 80%;
+  }
+
+  .paragraph_about2_long {
+    width: 100%;
+  }
+
+  .box3_img {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+  }
+
+  .science_teacher {
+    height: 200px;
+  }
+
+  /* EXPLORE */
+
+  .explore_container {
+    height: auto;
+    width: var(--box_width_mobile);
+    border-radius: var(--border);
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: var(--shadow);
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-areas:
+      "head"
+      "base";
+  }
+
+  .h1_explore {
+    font-size: var(--h1_mobile);
+  }
+
+  .kids_headline {
+    font-size: var(--headline_mobile);
+  }
+
+  .orange_rocket {
+    display: none;
+  }
+
+  .explorer1 {
+    grid-area: head;
+    align-self: center;
+    justify-self: center;
+    width: 80%;
+  }
+
+  .kids_p {
+    width: 100%;
+    font-size: var(--font_mobile);
+  }
+
+  .explorer2 {
+    grid-area: base;
+    align-self: center;
+    justify-self: center;
+    width: 80%;
+  }
+
+  #fullname,
+  #email,
+  #phone,
+  #message {
+    width: 260px;
+  }
+
+  .explore_container2 {
+    width: var(--box_width_mobile);
+    height: 580px;
+  }
+
+  .explore1 {
+    grid-area: explore1;
+    letter-spacing: var(--spacing);
+    align-self: center;
+    justify-self: center;
+    width: 85%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .container2_headline,
+  .container3_headline {
+    font-size: var(--headline_mobile);
+  }
+
+  .container2_p,
+  .container3_p {
+    font-size: var(--font_mobile);
+    width: 85%;
+  }
+
+  .explore2 {
+    grid-area: explore2;
+    align-self: center;
+    justify-self: center;
+    width: 85%;
+    margin-bottom: 20px;
+  }
+
+  .explore_container3 {
+    height: auto;
+    width: var(--box_width_mobile);
+    display: grid;
+    grid-template-areas:
+      "explore3"
+      "explore4"
+      "img_grid";
+  }
+
+  .explore3 {
+    grid-area: explore3;
+    align-self: center;
+    justify-self: center;
+    width: 85%;
+    letter-spacing: var(--spacing);
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .explore4 {
+    grid-area: explore4;
+    align-self: center;
+    justify-self: center;
+    width: 85%;
+  }
+
+  .explore5 {
+    grid-area: img_grid;
+    align-self: center;
+    justify-self: end;
+    width: 50%;
+    margin-top: 20px;
+  }
+  .bottles {
+    height: 140px;
+  }
+
+  /* EXHIBITIONS */
+
+  .exhibitions_container {
+    display: grid;
+    grid-template-areas:
+      "space1"
+      "space2"
+      "space3"
+      "space4"
+      "space5"
+      "space6"
+      "space8"
+      "space7"
+      "space9"
+      "space10";
+    width: var(--box_width_mobile);
+    grid-template-columns: repeat(1) 1fr;
+    grid-template-rows: repeat(4, 490px);
+    height: auto;
+  }
+
+  .exhibtions1 {
+    grid-area: space1;
+    width: 85%;
+    align-self: center;
+    justify-self: center;
+    height: 450px;
+  }
+
+  .h1_exhibitions {
+    font-size: var(--h1_mobile);
+  }
+
+  .cosmology {
+    margin-top: 30px;
+  }
+
+  .cosmo_p {
+    width: 95%;
+    font-size: var(--font_mobile);
+    line-height: 26px;
+  }
+
+  .exhibtions2 {
+    grid-area: space6;
+    width: 85%;
+    align-self: center;
+    justify-self: center;
+    margin-top: 20px;
+  }
+
+  .cosmo_moon {
+    height: 160px;
+    display: none;
+  }
+
+  .exhibtions3 {
+    grid-area: space4;
+    align-self: flex-end;
+    justify-self: center;
+    width: 85%;
+    height: 280px;
+  }
+
+  .exhibtions4 {
+    grid-area: space2;
+    align-self: center;
+    justify-self: center;
+    width: 85%;
+    height: 500px;
+  }
+
+  .bio_p,
+  .robo_p,
+  .evolution_p,
+  .ecology_p {
+    width: 95%;
+    font-size: var(--font_mobile);
+    line-height: 26px;
+  }
+
+  .exhibtions5 {
+    grid-area: space5;
+    width: 85%;
+  }
+
+  .exhibtions6 {
+    grid-area: space10;
+    width: 80%;
+  }
+
+  .icebear,
+  .heart,
+  .mammoth,
+  .robot {
+    height: 180px;
+    display: none;
+  }
+
+  .exhibtions7 {
+    grid-area: space7;
+    width: 85%;
+  }
+
+  .exhibtions8 {
+    grid-area: space4;
+    width: 85%;
+  }
+
+  .exhibtions9 {
+    grid-area: space3;
+    width: 85%;
+  }
+
+  .exhibtions10 {
+    grid-area: space10;
+    width: 85%;
+  }
+
+  .exhbitions_volunteer {
+    display: grid;
+    grid-template-areas:
+      "vol"
+      "vol2";
+    height: 380px;
+    width: var(--box_width_mobile);
+  }
+
+  .gridsy_container {
+    grid-area: gridsy1;
+    width: 80%;
+    height: 100px;
+  }
+
+  .exhibitions_vol {
+    font-weight: var(--fw);
+    margin-top: 30px;
+  }
+
+  .vol_btn {
+    grid-area: gridsy2;
+    height: 40px;
+    width: 80%;
+    margin-top: 30px;
+  }
+
+  .exhibitions_grid2 {
+    grid-area: vol2;
+    width: 40%;
+  }
+
+  /* VISITING */
+
+  .main_visit p {
+    font-size: var(--font_mobile);
+  }
+
+  .h1_visit {
+    font-size: var(--h1_mobile);
+  }
+
+  .flex_coin {
+    display: grid;
+    width: var(--box_width_mobile);
+  }
+
+  .article_1 {
+    margin-bottom: 30px;
+    height: 400px;
+  }
+
+  .article_2 {
+    margin-bottom: 30px;
+  }
+
+  .art1 {
+    width: 100%;
+  }
+
+  .flex_container {
+    display: grid;
+    width: var(--box_width_mobile);
+    height: 1200px;
+    margin: auto;
+  }
+
+  .art_grid1 {
+    grid-area: grids1;
+    line-height: var(--line);
+    width: 90%;
+    margin: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .headline_art2,
+  .headline_art3 {
+    margin-top: 20px;
+  }
+
+  .p_tour {
+    margin-top: 10px;
+  }
+
+  .tickets_p_long {
+    text-align: center;
+    width: 90%;
+    font-size: var(--paragraph);
+    line-height: var(--line);
+    margin: auto;
+  }
+
+  .tickets_price_headline {
+    font-weight: var(--fw);
+    margin-top: 20px;
+    width: 50%;
+    text-align: center;
+  }
+
+  .tickets_price {
+    margin-top: 10px;
+    font-size: var(--paragraph);
+    text-align: center;
+  }
+
+  .art_grid {
+    width: var(--box_width_mobile);
+  }
+
+  .grids2_img {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 45px;
+    width: 115%;
+  }
+
+  .queue {
+    height: 140px;
+    margin-bottom: 20px;
+  }
+}

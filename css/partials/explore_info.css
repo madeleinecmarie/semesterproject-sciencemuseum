@@ -1,0 +1,238 @@
+.main_exploring {
+  height: auto;
+}
+
+.explore_container {
+  height: 1140px;
+  width: var(--box_width);
+  border-radius: var(--border);
+  margin: auto;
+  margin-top: 80px;
+  box-shadow: var(--shadow);
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-areas:
+    "head head"
+    "base illustration";
+}
+
+.explorer1 {
+  grid-area: head;
+  align-self: center;
+  justify-self: center;
+  width: 80%;
+}
+
+.h1_explore {
+  font-size: var(--h1);
+  color: var(--color);
+  letter-spacing: var(--spacing);
+  margin-top: 30px;
+}
+
+.kids_headline {
+  font-weight: var(--fw);
+  margin-top: 80px;
+  font-size: 1.1rem;
+  letter-spacing: var(--spacing);
+}
+
+.kids_p {
+  font-size: var(--paragraph);
+  line-height: var(--line);
+  width: 60%;
+  margin-top: 20px;
+  letter-spacing: var(--spacing);
+}
+
+.kids_message {
+  color: var(--color);
+  font-weight: var(--fw);
+}
+
+.explorer2 {
+  grid-area: base;
+  align-self: center;
+  justify-self: end;
+  width: 75%;
+}
+
+input[type="text"] {
+  font-family: "Raleway", sans-serif;
+}
+
+#fullname,
+#email,
+#phone {
+  border-radius: var(--border);
+  outline: none;
+  box-shadow: var(--shadow);
+  border: none;
+  font-size: 0.75rem;
+  width: 320px;
+  height: 45px;
+  margin-top: 20px;
+  text-indent: 10px;
+  letter-spacing: var(--spacing);
+}
+
+#message {
+  border-radius: 40px;
+  outline: none;
+  box-shadow: var(--shadow);
+  border: none;
+  resize: none;
+  margin-top: 25px;
+  text-indent: 30px;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: var(--spacing);
+}
+
+.send_btn {
+  border-radius: var(--border);
+  outline: none;
+  width: 120px;
+  padding: 8px;
+  font-weight: 600;
+  border: none;
+  box-shadow: var(--shadow);
+  background-color: var(--color);
+  color: white;
+  margin: 20px;
+}
+
+.send_btn:hover {
+  color: var(--color);
+  background-color: white;
+}
+
+.explorer3 {
+  grid-area: illustration;
+  align-self: initial;
+  justify-self: center;
+  width: 80%;
+}
+
+.orange_rocket {
+  height: 400px;
+}
+
+/* SECTION 2 */
+
+.explore_container2 {
+  display: grid;
+  grid-template-areas:
+    "explore1"
+    "explore2";
+  height: 340px;
+  width: var(--box_width);
+  border-radius: var(--border);
+  margin: auto;
+  margin-top: 40px;
+  box-shadow: var(--shadow);
+  /* margin-bottom: 0px; */
+  background-color: var(--box_color);
+}
+
+.explore1 {
+  grid-area: explore1;
+  letter-spacing: var(--spacing);
+  align-self: center;
+  justify-self: center;
+  width: 85%;
+  height: 210px;
+}
+
+/* SECTION 2 AND 3 PARAGRAPHS */
+
+.container2_headline,
+.container3_headline {
+  font-weight: var(--fw);
+  font-size: 1.1rem;
+}
+
+.container2_p,
+.container3_p {
+  font-size: var(--paragraph);
+  margin-top: 10px;
+  width: 70%;
+  line-height: var(--line);
+}
+
+.explore2 {
+  grid-area: explore2;
+  align-self: center;
+  justify-self: center;
+  width: 85%;
+}
+
+/* SECTION 2 AND 3 BUTTON */
+
+.ticket_view_btn,
+.involved_overview_btn {
+  border-radius: var(--border);
+  outline: none;
+  width: 120px;
+  padding: 6px;
+  font-weight: 700;
+  border: none;
+  box-shadow: var(--shadow);
+  background-color: var(--color);
+  color: white;
+  margin-top: 10px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  font-size: 0.875rem;
+}
+
+.ticket_view_btn:hover,
+.involved_overview_btn:hover {
+  color: var(--color);
+  background-color: white;
+}
+
+/* SECTION 3 */
+
+.explore_container3 {
+  height: 340px;
+  width: var(--box_width);
+  border-radius: var(--border);
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: var(--shadow);
+  background-color: var(--box_color);
+  display: grid;
+  grid-template-areas:
+    "explore3 img_grid"
+    "explore4 img_grid";
+}
+
+.explore3 {
+  grid-area: explore3;
+  align-self: center;
+  justify-self: center;
+  width: 85%;
+  letter-spacing: var(--spacing);
+  height: 190px;
+}
+
+.explore4 {
+  grid-area: explore4;
+  align-self: center;
+  justify-self: center;
+  width: 85%;
+}
+
+.explore5 {
+  grid-area: img_grid;
+  align-self: center;
+  justify-self: end;
+  width: 160%;
+  margin-top: 80px;
+}
+
+.bottles {
+  height: 160px;
+}

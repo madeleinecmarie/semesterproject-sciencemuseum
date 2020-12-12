@@ -1,0 +1,14 @@
+@import "./partials/variables.css";
+@import "./partials/layout.css";
+@import "./partials/homepage.css";
+@import "./partials/header.css";
+@import "./partials/footer.css";
+@import "./partials/getinvolved.css";
+@import "./partials/explore_info.css";
+@import "./partials/exhibitions.css";
+@import "./partials/about.css";
+@import "./partials/visit_us.css";
+
+/*always at the end*/
+
+@import "./partials/media_queries.css";

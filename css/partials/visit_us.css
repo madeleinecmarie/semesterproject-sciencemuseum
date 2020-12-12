@@ -1,0 +1,253 @@
+.main_visit {
+  height: auto;
+  letter-spacing: var(--spacing);
+}
+
+.h1_visit {
+  grid-area: headline;
+  color: var(--color);
+  font-size: var(--h1);
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* BOX 1 */
+
+.flex_coin {
+  display: flex;
+  justify-content: space-between;
+  width: 1080px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.article_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: var(--border);
+  /* height: 400px; */
+  width: 320px;
+  box-shadow: var(--shadow);
+}
+
+.headline_art1 {
+  margin-left: 50px;
+}
+
+.h2_art1,
+.h2_art2,
+.h2_art3 {
+  font-size: 1rem;
+}
+
+.h2_art1 {
+  width: 72%;
+}
+
+.fa-map-marker-alt {
+  color: var(--color);
+  font-size: 1.875rem;
+}
+
+.fa-envelope-open,
+.fa-phone-alt {
+  color: var(--color);
+  font-size: 1.875rem;
+}
+
+.location,
+.mail,
+.phone {
+  font-size: var(--paragraph);
+}
+
+.span_art {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.span_art1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 85px;
+}
+
+.article_2 {
+  display: inline-block;
+  line-height: 40px;
+  border-radius: var(--border);
+  width: 320px;
+  box-shadow: var(--shadow);
+}
+
+.headline_art2,
+.headline_art3 {
+  font-weight: var(--fw);
+  margin-left: 45px;
+  margin-top: 35px;
+}
+
+.hours {
+  margin-left: 40px;
+  margin-top: 10px;
+  font-size: var(--paragraph);
+}
+
+.article_3 {
+  display: inline-block;
+  border-radius: var(--border);
+  width: 320px;
+  box-shadow: var(--shadow);
+}
+
+.p_tour {
+  font-size: var(--paragraph);
+  line-height: 36px;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/* BOX 2 */
+
+.flex_container {
+  display: flex;
+  width: var(--box_width);
+  border-radius: var(--border);
+  margin: auto;
+  box-shadow: var(--shadow);
+  background-color: var(--box_color);
+}
+
+.art1 {
+  flex: 2;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+.art2 {
+  flex: 2;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.art3 {
+  flex: 2;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.art_p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.wheelchair_img,
+.food_img {
+  height: 124px;
+}
+
+.shop_img {
+  height: 110px;
+  margin-top: 20px;
+}
+
+.wheeler,
+.shopper,
+.foodie {
+  font-size: var(--paragraph);
+  line-height: var(--line);
+  text-align: center;
+}
+
+.wheeler,
+.foodie {
+  width: 70%;
+}
+
+.shopper {
+  width: 78%;
+  margin-top: 30px;
+}
+
+/* BOX 3 */
+
+.art_three {
+  margin-bottom: 40px;
+}
+
+.art_grid {
+  display: grid;
+  grid-template-areas: "grids1 grids2";
+  width: var(--box_width);
+  border-radius: var(--border);
+  margin: auto;
+  box-shadow: var(--shadow);
+  background-color: var(--box_color);
+  margin-top: 60px;
+}
+
+.art_grid1 {
+  grid-area: grids1;
+  line-height: var(--line);
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tickets_headline h2 {
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.tickets_p_long {
+  text-align: center;
+  width: 70%;
+  font-size: var(--paragraph);
+  line-height: var(--line);
+  margin: auto;
+}
+
+.tickets_price_headline {
+  font-weight: var(--fw);
+  margin-top: 20px;
+  width: 23%;
+}
+
+.tickets_price {
+  margin-top: 10px;
+  font-size: var(--paragraph);
+  text-align: center;
+}
+
+.art_grid2 {
+  grid-area: grids2;
+  width: 70%;
+}
+
+.grids2_img {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.queue {
+  height: 280px;
+}
+
+.flex_container h3,
+.flex_coin h3 {
+  display: none;
+}

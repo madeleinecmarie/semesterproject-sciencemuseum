@@ -1,0 +1,138 @@
+.getinvolved_container {
+  display: grid;
+  grid-template-areas:
+    "box1 box"
+    "box2 box"
+    "box3 box";
+  /* grid-template-columns: repeat(1) 1fr;
+  grid-template-rows: repeat(3, 400px); */
+  /* height: 1350px; */
+  width: var(--box_width);
+  border-radius: var(--border);
+  margin: auto;
+  margin-top: 80px;
+  box-shadow: var(--shadow);
+  margin-bottom: 40px;
+}
+
+.h1_involved {
+  color: var(--color);
+  font-size: 1.3rem;
+}
+
+.getinvolved_box1 {
+  grid-area: box1;
+  align-content: center;
+  justify-self: center;
+  width: 80%;
+}
+
+.getinvolved_box2 {
+  grid-area: box2;
+  align-self: center;
+  justify-self: center;
+  width: 80%;
+}
+
+.getinvolved_box3 {
+  grid-area: box3;
+  align-self: center;
+  justify-self: center;
+  width: 80%;
+}
+
+.getinvolved_box4 {
+  grid-area: box;
+  align-self: center;
+  justify-self: center;
+  margin-right: 40px;
+}
+
+.h1_involved {
+  color: var(--color);
+  font-size: var(--h1);
+  margin-top: 20px;
+}
+
+.paragraph_involved {
+  font-weight: var(--fw);
+  margin-top: 30px;
+}
+
+.paragraph_involved_long {
+  width: 82%;
+  letter-spacing: var(--spacing);
+  font-size: var(--paragraph);
+  line-height: var(--line);
+  margin-top: 8px;
+}
+
+.paragraph_involved2,
+.paragraph_involved3 {
+  font-weight: var(--fw);
+  width: 80%;
+  margin-top: 30px;
+}
+
+.people_img {
+  height: 340px;
+}
+
+.getinvolved_box5 {
+  display: grid;
+  grid-template-areas:
+    "h2"
+    "button";
+  width: var(--box_width);
+  height: 220px;
+  background-color: var(--box_color);
+  border-radius: var(--border);
+  box-shadow: var(--shadow);
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.paragraph_involved5 {
+  grid-area: h2;
+  width: 84%;
+}
+
+.h2_involved {
+  font-weight: var(--fw);
+  margin-top: 20px;
+  margin-left: 60px;
+  font-size: 1rem;
+}
+
+.paragraph_involved5_long {
+  letter-spacing: var(--spacing);
+  font-size: var(--paragraph);
+  margin-top: 15px;
+  margin-left: 60px;
+  line-height: var(--line);
+}
+
+.contact_span a {
+  color: var(--color);
+  font-weight: var(--fw);
+  text-decoration: none;
+}
+
+.exhibition_btn {
+  border-radius: var(--border);
+  outline: none;
+  width: 120px;
+  padding: 8px;
+  font-weight: 600;
+  border: none;
+  box-shadow: var(--shadow);
+  background-color: var(--color);
+  color: white;
+  margin-left: 60px;
+}
+
+.exhibition_btn:hover {
+  background-color: white;
+  color: var(--color);
+}

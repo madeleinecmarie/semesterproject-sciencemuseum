@@ -1,0 +1,18 @@
+:root {
+  --color: #f2a444;
+  --box_width: 1060px;
+  --border: 50px;
+  --shadow: 0 0 4px 0px rgba(242, 164, 68, 0.5);
+  --spacing: 1px;
+  --h1: 1.25rem;
+  --fw: 600;
+  --line: 35px;
+  --paragraph: 0.875rem;
+  --box_color: #fdecd7;
+  --img: 20px;
+  --font_mobile: 0.8125rem;
+  --h1_mobile: 1rem;
+  --box_width_tablet: 740px;
+  --box_width_mobile: 330px;
+  --headline_mobile: 0.8rem;
+}
